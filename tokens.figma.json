@@ -1,0 +1,999 @@
+{
+  "global": {
+    "data-visualization": {
+      "10": {
+        "value": "#b33c18",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "11": {
+        "value": "#0da3a6",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "12": {
+        "value": "#0b7288",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "13": {
+        "value": "#b38918",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "14": {
+        "value": "#806211",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "15": {
+        "value": "#00294d",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "01": {
+        "value": "#7a01c4",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "02": {
+        "value": "#009bcc",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "03": {
+        "value": "#1bab4b",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "04": {
+        "value": "#ff5622",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "05": {
+        "value": "#f54c9a",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "06": {
+        "value": "#c21565",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "07": {
+        "value": "#c065f7",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "08": {
+        "value": "#0069bf",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      },
+      "09": {
+        "value": "#137835",
+        "type": "color",
+        "description": "Data visualization color that is accessible with white. Please note that this color should not be used for any other purpose."
+      }
+    },
+    "font-size": {
+      "large": {
+        "value": "1.25rem",
+        "type": "fontSizes",
+        "description": "Large font size is used for small sub-headings."
+      },
+      "medium": {
+        "value": "1rem",
+        "type": "fontSizes",
+        "description": "Medium font size is used for the body text."
+      },
+      "small": {
+        "value": "0.875rem",
+        "type": "fontSizes",
+        "description": "Small font size should be used sparingly for annotations, descriptions, and similar content."
+      },
+      "x_large": {
+        "value": "1.5rem",
+        "type": "fontSizes",
+        "description": "X-large font size is used for large sub-headings."
+      },
+      "x_small": {
+        "value": "0.75rem",
+        "type": "fontSizes",
+        "description": "X-Small font size that is only used in native iOS and Android applications."
+      },
+      "xx_large": {
+        "value": "2.25rem",
+        "type": "fontSizes",
+        "description": "XX-large font size is used for the main heading on tablet size."
+      },
+      "xxx_large": {
+        "value": "3rem",
+        "type": "fontSizes",
+        "description": "XXX-large font size is used for the main heading on desktop."
+      },
+      "xxxx_large": {
+        "value": "4.5rem",
+        "type": "fontSizes",
+        "description": "XXXX-large font size is for marketing purposes and banners."
+      }
+    },
+    "font": {
+      "weight": {
+        "normal": {
+          "value": "Normal",
+          "type": "fontWeights",
+          "description": "Normal font weight is used for body text and form inputs together with “Text” font family."
+        },
+        "semi_bold": {
+          "value": "Semi Bold",
+          "type": "fontWeights",
+          "description": "Semi bold font weight is used for buttons and sub headings together with “Text” font family."
+        }
+      },
+      "letter-spacing": {
+        "heading": {
+          "value": "-0.01rem",
+          "type": "letterSpacings",
+          "description": "Gives tiny amount of negative letter spacing for the page main heading."
+        }
+      },
+      "line-height": {
+        "medium": {
+          "value": "150%",
+          "type": "line-height",
+          "description": "Medium line-height is used for the main body text. Basically everything else except the headings and sidebar (and a few other exceptions)."
+        },
+        "small": {
+          "value": "125%",
+          "type": "line-height",
+          "description": "Small line-height is used for all application headings and text in sidebar."
+        },
+        "x_small": {
+          "value": "110%",
+          "type": "line-height",
+          "description": "X-small line-height is used when we don’t want the line-height to create any additional white space above or below text."
+        }
+      }
+    },
+    "opacity": {
+      "30": {
+        "value": "0.30",
+        "type": "opacity",
+        "description": "Gives 30% opacity to an element."
+      },
+      "50": {
+        "value": "0.50",
+        "type": "opacity",
+        "description": "Gives 50% opacity to an element."
+      },
+      "75": {
+        "value": "0.75",
+        "type": "opacity",
+        "description": "Gives 75% opacity to an element."
+      },
+      "85": {
+        "value": "0.85",
+        "type": "opacity",
+        "description": "Gives 85% opacity to an element."
+      }
+    },
+    "border-radius": {
+      "circle": {
+        "value": "50%",
+        "type": "borderRadius",
+        "description": "Circle border-radius is used as icon background shape and as avatar shape."
+      },
+      "default": {
+        "value": "4px",
+        "type": "borderRadius",
+        "description": "Default border-radius is used in interface containers, form inputs, textareas, and similar. If you’re unsure which radius to use, pick the default."
+      },
+      "intermediate": {
+        "value": "12px",
+        "type": "borderRadius",
+        "description": "Intermediate border-radius is in some interactive UI elements and when medium is not enough and large is too much."
+      },
+      "large": {
+        "value": "16px",
+        "type": "borderRadius",
+        "description": "Large border-radius is used in marketing container, banners and big images."
+      },
+      "medium": {
+        "value": "8px",
+        "type": "borderRadius",
+        "description": "Medium border-radius is used in cards, small containers (e.g. menu component) and small images."
+      },
+      "pill": {
+        "value": "20rem",
+        "type": "borderRadius",
+        "description": "Pill border-radius is the default radius for buttons, tags, tabs, and similar."
+      },
+      "sharp": {
+        "value": "0",
+        "type": "borderRadius",
+        "description": "Sharp border-radius resets the corners to be sharp with no rounding."
+      }
+    },
+    "size": {
+      "button_border": {
+        "value": "1px",
+        "type": "sizing",
+        "description": "Button border size is used to set a consistent borders for buttons."
+      },
+      "button_min_width": {
+        "value": "8rem",
+        "type": "sizing",
+        "description": "Button min width size is used to set the minimum width for button elements."
+      },
+      "button_tiny_border": {
+        "value": "1px",
+        "type": "sizing",
+        "description": "Button tiny border size is used to set a consistent borders for action buttons - that contain only icons."
+      },
+      "form_border": {
+        "value": "1px",
+        "type": "sizing",
+        "description": "Form border size is used to set a consistent borders for form elements."
+      },
+      "header": {
+        "value": "4rem",
+        "type": "sizing",
+        "description": "Header size (64px) is used for the header height on mobile, tablet and desktop viewports."
+      },
+      "icon_large": {
+        "value": "30px",
+        "type": "sizing",
+        "description": "Large icon size is used for insurance categories in mobile, small product levels, and card icons."
+      },
+      "icon_medium": {
+        "value": "24px",
+        "type": "sizing",
+        "description": "Medium icon size is the standard icon size. Used for example in primary selections."
+      },
+      "icon_small": {
+        "value": "20px",
+        "type": "sizing",
+        "description": "Small icon size is used with text links, buttons, inside forms, and in global navigation."
+      },
+      "icon_x_large": {
+        "value": "36px",
+        "type": "sizing",
+        "description": "X-large icon size is used as product level icons."
+      },
+      "icon_x_small": {
+        "value": "16px",
+        "type": "sizing",
+        "description": "X-small icon size is used when the space is limited."
+      },
+      "icon_xx_large": {
+        "value": "48px",
+        "type": "sizing",
+        "description": "XX-large icon size is used in components as a visual element."
+      },
+      "icon_xx_small": {
+        "value": "10px",
+        "type": "sizing",
+        "description": "XX-small icon size is used when the space is limited."
+      },
+      "icon_xxx_large": {
+        "value": "72px",
+        "type": "sizing",
+        "description": "XXX-large icon size is used for insurance categories in desktop and to visualise feedback overlays."
+      },
+      "icon_xxx_small": {
+        "value": "7px",
+        "type": "sizing",
+        "description": "XXX-small icon size is used when the space is limited."
+      },
+      "layout_max_width": {
+        "value": "1110px",
+        "type": "sizing",
+        "description": "This size is used as the max-width for all layouts on the Web."
+      },
+      "medium_border": {
+        "value": "2px",
+        "type": "sizing",
+        "description": "Medium border size is used to set a consistent borders for components needing thicker border than buttons or form elements."
+      },
+      "navigation": {
+        "value": "3rem",
+        "type": "sizing",
+        "description": "Navigation size (48px) is used for the navigation height on desktop viewports."
+      },
+      "step_medium": {
+        "value": "40px",
+        "type": "sizing",
+        "description": "Medium step size is used for stepper circles that have icon inside them (desktop viewports)."
+      },
+      "step_small": {
+        "value": "30px",
+        "type": "sizing",
+        "description": "Small step size is used for stepper circles that have icon inside them (mobile viewports)."
+      },
+      "tappable_square": {
+        "value": "48px",
+        "type": "sizing",
+        "description": "A minimum recommended touch target size is 48 device independent pixels on a website with a properly set mobile viewport."
+      }
+    },
+    "space": {
+      "large": {
+        "value": "20px",
+        "type": "spacing",
+        "description": "Large space is most commonly used as an empty space between two components."
+      },
+      "medium": {
+        "value": "16px",
+        "type": "spacing",
+        "description": "Medium is the default space."
+      },
+      "small": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Small space is used when the space is limited and for example in popover datepicker."
+      },
+      "x_large": {
+        "value": "28px",
+        "type": "spacing",
+        "description": "X-large space is used as an empty space between two elements."
+      },
+      "x_small": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "X-small space is used when the space is limited."
+      },
+      "xx_large": {
+        "value": "36px",
+        "type": "spacing",
+        "description": "XX-large space is used as horizontal padding in buttons and as an empty space between two elements."
+      },
+      "xx_small": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "XX-small space is used when the space is limited."
+      },
+      "xxx_large": {
+        "value": "48px",
+        "type": "spacing",
+        "description": "XXX-large space is used as an empty space between two elements."
+      },
+      "xxx_small": {
+        "value": "2px",
+        "type": "spacing",
+        "description": "XXX-small space is used when the space is limited."
+      },
+      "xxxx_large": {
+        "value": "72px",
+        "type": "spacing",
+        "description": "XXXX-large space is used as an empty space between two elements."
+      },
+      "xxxxx_large": {
+        "value": "94px",
+        "type": "spacing",
+        "description": "XXXXX-large space is used as spacer on modals."
+      }
+    }
+  },
+  "turva": {
+    "color": {
+      "brand_gray": {
+        "value": "#b2b4b3",
+        "type": "color",
+        "description": "Non-accessible brand gray that is used in Turva logo and print materials."
+      },
+      "category_family": {
+        "value": "#c70c70",
+        "type": "color",
+        "description": "Family category color that is accessible with white. Should be only used within the family product category and icons (or similar) representing it."
+      },
+      "category_home": {
+        "value": "#a10a4e",
+        "type": "color",
+        "description": "Home category color that is accessible with white. Should be only used within the home product category and icons (or similar) representing it."
+      },
+      "category_travel": {
+        "value": "#098194",
+        "type": "color",
+        "description": "Travel category color that is accessible with white. Should be only used within the travel product category and icons (or similar) representing it."
+      },
+      "category_union": {
+        "value": "#a9457c",
+        "type": "color",
+        "description": "Union category color that is accessible with white. Should be only used within the union product category and icons (or similar) representing it."
+      },
+      "category_vehicle": {
+        "value": "#171c3a",
+        "type": "color",
+        "description": "Vehicle category color that is accessible with white. Should be only used within the vehicle/mobility product category and icons (or similar) representing it."
+      },
+      "danger": {
+        "value": "#e02a0d",
+        "type": "color",
+        "description": "Danger red that is accessible with white. Only used in special cases like form validation and messaging."
+      },
+      "gray_dark": {
+        "value": "#747475",
+        "type": "color",
+        "description": "Dark gray that is accessible with white. Most commonly used to indicate inactive interface state. This color should also be used for borders that need to pass WCAG Level AA non-text contrast requirements."
+      },
+      "gray_darker": {
+        "value": "#444445",
+        "type": "color",
+        "description": "Dark gray that is accessible with white. Most commonly used as selected tab button background color."
+      },
+      "gray_light": {
+        "value": "#e4e4e6",
+        "type": "color",
+        "description": "Light gray that is accessible with secondary black. For consistency, we use this common grayscale palette throughout the interface."
+      },
+      "gray_lighter": {
+        "value": "#f5f5f7",
+        "type": "color",
+        "description": "Light gray that is accessible with secondary black. For consistency, we use this common grayscale palette throughout the interface."
+      },
+      "gray_lightest": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "White is used as the primary page background color and primary container background color."
+      },
+      "gray": {
+        "value": "#cfcfd1",
+        "type": "color",
+        "description": "Gray that is accessible with secondary black. For consistency, we use this common grayscale palette throughout the interface."
+      },
+      "primary_dark": {
+        "value": "#940925",
+        "type": "color",
+        "description": "Dark version of primary red that is accessible with white. Most commonly used to indicate hover and active states of an item with primary red background."
+      },
+      "primary_darker": {
+        "value": "#ad0b2b",
+        "type": "color",
+        "description": "Primary digital red that is accessible with white. Used as link text color."
+      },
+      "primary_light": {
+        "value": "#f4cfd6",
+        "type": "color",
+        "description": "Light red that is 20% tint of the primary red. Accessible when secondary black is used as the text color."
+      },
+      "primary_lighter": {
+        "value": "#f9e6ea",
+        "type": "color",
+        "description": "Light red that is 10% tint of the primary red. Accessible when secondary black is used as the text color."
+      },
+      "primary_lightest": {
+        "value": "#fcf3f4",
+        "type": "color",
+        "description": "Light red that is 5% tint of the primary red. Accessible when secondary black is used as the text color. Commonly used to indicate a hover state of item with white background."
+      },
+      "primary": {
+        "value": "#c60c30",
+        "type": "color",
+        "description": "Primary digital red that is accessible with white. Used as primary button background color, selected state background color, and as link text color."
+      },
+      "secondary": {
+        "value": "#171c3a",
+        "type": "color",
+        "description": "Secondary black that is accessible with light, lighter and lightest primary red. Used as the body text color."
+      },
+      "success": {
+        "value": "#08874e",
+        "type": "color",
+        "description": "Success green that is accessible with white. Only used in special cases like form validation and messaging."
+      },
+      "warning": {
+        "value": "#faa40f",
+        "type": "color",
+        "description": "Warning orange (non-accessible) is only used in special cases like form validation and messaging."
+      }
+    },
+    "font": {
+      "family": {
+        "heading": {
+          "value": "Asap",
+          "type": "fontFamilies",
+          "description": "Heading font family uses a font stack that gracefully degrades to default system fonts on different platforms. Should be used for headings only."
+        },
+        "text": {
+          "value": "Asap",
+          "type": "fontFamilies",
+          "description": "Text font family uses a font stack that gracefully degrades to default system fonts on different platforms. Should be used for body text and form controls."
+        }
+      },
+      "weight": {
+        "bold": {
+          "value": "Bold",
+          "type": "fontWeights",
+          "description": "Bold font weight is used for headings only together with “Heading” font family."
+        }
+      }
+    },
+    "shadow": {
+      "card": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "6px",
+            "spread": "0",
+            "color": "rgba(117, 117, 117, 0.13)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "0",
+            "y": "-1px",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.09)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "-1px",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.07)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "1px",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.07)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "0",
+            "y": "1px",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.07)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Card shadow is a variant of default shadow that is used when information needs to be contained within a card."
+      },
+      "default": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "6px",
+            "spread": "0",
+            "color": "rgba(117, 117, 117, 0.13)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Default shadow is used when information needs to be contained within a component."
+      },
+      "error": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#e55039",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Error state shadow for Turva theme, using $color-danger-turva."
+      },
+      "focus_input": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#171c3a",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Focus state shadow for input elements in Turva theme, using $color-secondary-turva."
+      },
+      "focus": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4px",
+            "color": "rgba(23, 28, 58, 0.2)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#171c3a",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Focus state shadow for Turva theme, using $color-secondary-turva."
+      },
+      "hover_input": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#747475",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Hover state shadow for input elements in Turva theme, using $color-gray-dark-turva."
+      },
+      "hover": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "10px",
+            "spread": "0",
+            "color": "rgba(117, 117, 117, 0.15)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Hover shadow is used when primary component is clickable and is hovered over/active on mobile."
+      },
+      "tooltip": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "10px",
+            "spread": "0",
+            "color": "rgba(117, 117, 117, 0.13)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Tooltip shadow is used by popover tooltips."
+      }
+    }
+  },
+  "lahitapiola": {
+    "color": {
+      "brand_blue": {
+        "value": "#00a1d4",
+        "type": "color",
+        "description": "Non-accessible brand blue that is used in LocalTapiola logo and print materials."
+      },
+      "category_family": {
+        "value": "#0b7288",
+        "type": "color",
+        "description": "Family category color that is accessible with white. Should be only used within the family product category and icons (or similar) representing it."
+      },
+      "category_finance": {
+        "value": "#7a01c4",
+        "type": "color",
+        "description": "Finance category color that is accessible with white. Should be only used within the finance product category and icons (or similar) representing it."
+      },
+      "category_home": {
+        "value": "#d32483",
+        "type": "color",
+        "description": "Home category color that is accessible with white. Should be only used within the home product category and icons (or similar) representing it."
+      },
+      "category_pet": {
+        "value": "#a8014e",
+        "type": "color",
+        "description": "Pet category color that is accessible with white. Should be only used within the pet product category and icons (or similar) representing it."
+      },
+      "category_travel": {
+        "value": "#d54203",
+        "type": "color",
+        "description": "Travel category color that is accessible with white. Should be only used within the travel product category and icons (or similar) representing it."
+      },
+      "category_vehicle": {
+        "value": "#364a81",
+        "type": "color",
+        "description": "Vehicle category color that is accessible with white. Should be only used within the vehicle/mobility product category and icons (or similar) representing it."
+      },
+      "danger": {
+        "value": "#de2362",
+        "type": "color",
+        "description": "Danger red that is accessible with white. Only used in special cases like form validation and messaging."
+      },
+      "gray": {
+        "value": "#cfd2d4",
+        "type": "color",
+        "description": "Gray that is accessible with secondary blue. For consistency, we use this common grayscale palette throughout the interface."
+      },
+      "gray_dark": {
+        "value": "#909599",
+        "type": "color",
+        "description": "Dark gray is used for form borders that need to pass WCAG Level AA non-text contrast requirements. Please note that this color isn’t accessible when used for text."
+      },
+      "gray_darker": {
+        "value": "#657787",
+        "type": "color",
+        "description": "Darker gray that is accessible with white when used for text. Most commonly used as a text color for interface help texts."
+      },
+      "gray_light": {
+        "value": "#e1e3e6",
+        "type": "color",
+        "description": "Light gray that is accessible with secondary blue. For consistency, we use this common grayscale palette throughout the interface."
+      },
+      "gray_lighter": {
+        "value": "#f5f8fa",
+        "type": "color",
+        "description": "Light gray that is accessible with secondary blue. For consistency, we use this common grayscale palette throughout the interface."
+      },
+      "gray_lightest": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "White is used as the primary page background color and primary container background color."
+      },
+      "primary": {
+        "value": "#0077b3",
+        "type": "color",
+        "description": "Primary digital blue that is accessible with white. Used as primary button background color, selected state background color, and as link text color."
+      },
+      "primary_dark": {
+        "value": "#004d80",
+        "type": "color",
+        "description": "Dark version of primary blue that is accessible with white. Most commonly used to indicate hover and active states of an item with primary blue background."
+      },
+      "primary_darker": {
+        "value": "#00629a",
+        "type": "color",
+        "description": "Primary digital blue that is accessible with white. Used as link text color."
+      },
+      "primary_light": {
+        "value": "#cde5f1",
+        "type": "color",
+        "description": "Light blue that is 20% tint of the primary blue. Accessible when secondary blue is used as the text color. Used for date hovers and in-between date ranges."
+      },
+      "primary_lighter": {
+        "value": "#e6f2f8",
+        "type": "color",
+        "description": "Light blue that is 10% tint of the primary blue. Accessible when secondary blue is used as the text color. Used for the dark end of background gradients."
+      },
+      "primary_lightest": {
+        "value": "#f3f9fc",
+        "type": "color",
+        "description": "Light blue that is 5% tint of the primary blue. Accessible when secondary blue is used as the text color. Commonly used to indicate a hover state of item with white background."
+      },
+      "secondary": {
+        "value": "#00294d",
+        "type": "color",
+        "description": "Secondary blue that is accessible with light, lighter and lightest primary blue. Used as the body text color."
+      },
+      "success": {
+        "value": "#00875a",
+        "type": "color",
+        "description": "Success green that is accessible with white. Only used in special cases like form validation and messaging."
+      },
+      "warning": {
+        "value": "#f7b228",
+        "type": "color",
+        "description": "Warning orange (non-accessible) is only used in special cases like form validation and messaging."
+      }
+    },
+    "font": {
+      "family": {
+        "heading": {
+          "value": "LahiTapiola Sans",
+          "type": "fontFamilies",
+          "description": "Heading font family uses a font stack that gracefully degrades to default system fonts on different platforms. Should be used for headings only."
+        },
+        "text": {
+          "value": "LahiTapiola Sans",
+          "type": "fontFamilies",
+          "description": "Text font family uses a font stack that gracefully degrades to default system fonts on different platforms. Should be used for body text and form controls."
+        }
+      },
+      "weight": {
+        "extra_bold": {
+          "value": "Extra Bold",
+          "type": "fontWeights",
+          "description": "Extra bold font weight is used for headings only together with “Heading” font family."
+        }
+      }
+    },
+    "shadow": {
+      "card": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "6px",
+            "spread": "0",
+            "color": "rgba(0, 41, 77, 0.07)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "0",
+            "y": "-1px",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.09)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "-1px",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.07)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "1px",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.07)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "0",
+            "y": "1px",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.07)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Card shadow is a variant of default shadow that is used when information needs to be contained within a card."
+      },
+      "default": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "6px",
+            "spread": "0",
+            "color": "rgba(0, 41, 77, 0.07)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Default shadow style."
+      },
+      "error": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#de2362",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Error state shadow, uses $color-danger."
+      },
+      "focus": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4px",
+            "color": "rgba(0, 119, 179, 0.3)",
+            "type": "boxShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#0077b3",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Applied for focus state shadow styling, utilizes $color-primary."
+      },
+      "focus_input": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#0077b3",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Input element focus shadow styling, incorporates $color-primary."
+      },
+      "hover": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "10px",
+            "spread": "0",
+            "color": "rgba(0, 41, 77, 0.1)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Hover shadow is used when primary component is clickable and is hovered over/active on mobile."
+      },
+      "hover_input": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1px",
+            "color": "#909599",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Input hover state shadow, uses $color-gray-dark."
+      },
+      "modal": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "20px",
+            "spread": "0",
+            "color": "rgba(0, 0, 0, 0.2)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Modal shadow is used for popovers and modal windows on a dark blue overlay."
+      },
+      "tooltip": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2px",
+            "blur": "10px",
+            "spread": "0",
+            "color": "rgba(0, 41, 77, 0.07)",
+            "type": "boxShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Tooltip shadow is used by popover tooltips."
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "123456",
+      "name": "lahitapiola",
+      "selectedTokenSets": {
+        "global": "source",
+        "lahitapiola": "enabled",
+        "turva": "disabled"
+      }
+    },
+    {
+      "id": "1234567",
+      "name": "turva",
+      "selectedTokenSets": {
+        "global": "source",
+        "lahitapiola": "disabled",
+        "turva": "enabled"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": []
+  }
+}
